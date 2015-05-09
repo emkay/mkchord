@@ -11,3 +11,5 @@ Chord.prototype.major = function major() {
 Chord.prototype.minor = function minor() {
     return [this.root, this.root.minorThird(), this.root.perfectFifth()];
 };
+
+module.exports = Chord;
